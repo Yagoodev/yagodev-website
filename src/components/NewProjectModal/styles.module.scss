@@ -1,0 +1,17 @@
+.modalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  .modalContent {
+    background-color: var(--bg);
+
+    .formContainer {
+      label {
+        display: block;
+      }
+    }
+  }
+}
