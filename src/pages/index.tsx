@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { MyServices } from '../components/MyServices';
 
 import styles from "./home.module.scss";
 
@@ -19,8 +20,11 @@ export default function Home() {
           </p>
         </section>
 
+
         <img src="/images/hero.svg" alt="hero image" />
       </main>
+      
+      <MyServices />
     </>
   )
 }

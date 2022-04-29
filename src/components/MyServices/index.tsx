@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import styles from "./styles.module.scss";
 
-export default function myservices() {
+export function MyServices() {
   return (
     <>
       <Head>
